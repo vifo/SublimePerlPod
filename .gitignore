@@ -6,6 +6,6 @@ COMMIT
 .pythoscope
 .coverage
 .cover
-*.sublime-*
+*.sublime-workspace
 *.pyc
 

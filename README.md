@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/vifo/SublimePerlPod.png)](http://travis-ci.org/vifo/SublimePerlPod)
 
-This is a plugin for [Sublime Text 2](http://www.sublimetext.com/) and [Sublime Text 3](http://www.sublimetext.com/3), which allows validation and preview of [Perl POD (plain old documentation)]() in Sublime Text.
+This is a plugin for [Sublime Text 2](http://www.sublimetext.com/) and [Sublime Text 3](http://www.sublimetext.com/3), which allows validation and preview of [Perl POD (plain old documentation)](http://perldoc.perl.org/perlpod.html) in Sublime Text.
 
 ## Quick start
 

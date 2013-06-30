@@ -1,0 +1,45 @@
+[
+    {
+        "caption": "Perl POD: Preview CPAN HTML in browser",
+        "command": "perl_pod_preview_cpan",
+        "args": {
+            "output_to": "browser"
+        }
+    },
+    {
+        "caption": "Perl POD: Preview CPAN HTML in scratch view",
+        "command": "perl_pod_preview_cpan",
+        "args": {
+            "output_to": "scratch"
+        }
+    },
+    {
+        "caption": "Perl POD: Preview Pod::Text in scratch view",
+        "command": "perl_pod_preview_pod_text",
+        "args": {
+            "output_to": "scratch"
+        }
+    },
+    {
+        "caption": "Perl POD: Preview Pod::HTML in browser",
+        "command": "perl_pod_preview_pod_html",
+        "args": {
+            "output_to": "browser"
+        }
+    },
+    {
+        "caption": "Perl POD: Preview Pod::HTML in scratch view",
+        "command": "perl_pod_preview_pod_html",
+        "args": {
+            "output_to": "scratch"
+        }
+    },
+    {
+        "caption": "Perl POD: Open POD cheat sheet",
+        "command": "perl_pod_open_cheat_sheet"
+    },
+    {
+        "caption": "Perl POD: Open perlpod documentation on perldoc.org",
+        "command": "perl_pod_open_perldoc_perlpod"
+    }
+]

@@ -1,0 +1,40 @@
+{
+    // If you would like to disable PerlPod entirely, set "enabled" to false.
+    // Defaults to true.
+    "enabled": true,
+
+    // Log level for plugin operations. Set to 1 to enable informational
+    // messages and to 2 for full debugging. Defaults to 0, so only warnings
+    // and errors will be displayed on the console.
+    "log_level": 0,
+
+    // Preview configuration
+    "preview": {
+
+        // CPAN renderer as found on http://search.cpan.org/pod2html
+        "cpan": {
+            "enabled": true
+        },
+
+        // Local renderer using Pod::Text via local Perl interpreter
+        "pod_text": {
+            "enabled": false
+        },
+
+        // Local renderer using Pod::Html via local Perl interpreter
+        "pod_html": {
+            "enabled": false
+        }
+
+    },
+
+    // Cheat sheet configuration
+    "cheat_sheet": {
+        "enabled": true
+    },
+
+    // perldoc.org perlpod documentation configuration
+    "perldoc_perlpod": {
+        "enabled": true
+    }
+}
