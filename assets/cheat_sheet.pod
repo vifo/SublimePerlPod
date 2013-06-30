@@ -1,0 +1,9 @@
+=encoding UTF-8
+
+=head1 NAME
+
+Perl POD cheat sheet.
+
+FIXME: Complete cheat sheet needs be done in assets/cheat_sheet.pod.
+
+=cut

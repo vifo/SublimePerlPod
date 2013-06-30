@@ -1,0 +1,11 @@
+scratch/
+nohup.out
+htmlcov/
+cover/
+COMMIT
+.pythoscope
+.coverage
+.cover
+*.sublime-*
+*.pyc
+

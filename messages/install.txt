@@ -1,0 +1,11 @@
+Perl POD for Sublime Text 2/3
+=============================
+
+Version: 0.1.0
+
+Thanks for installing Perl POD! Below are some quick notes to get you started.
+Please refer to:
+
+    https://github.com/vifo/SublimePerlPod
+
+for full documentation.

@@ -1,0 +1,41 @@
+#!/usr/bin/env perl
+
+use 5.010001;
+use strict;
+use warnings;
+
+use Test::More;
+use Smarttech::Net::Test;
+use File::Basename;
+use File::Spec;
+
+my @files_to_test = get_files_in_dirs(
+	{
+		dirs     => ['lib/'],
+		includes => [qr/\.pm$/x],
+	}
+);
+
+my @t_files = get_files_in_dirs(
+	{
+		dirs     => ['t/'],
+		includes => [qr/(\.pl\.t|\.sh\.t)$/],
+	}
+);
+
+plan( tests => scalar @files_to_test );
+
+SEARCH_T_FILE: foreach my $file_to_test (@files_to_test) {
+	my $file_to_test_basename = basename($file_to_test);
+
+	foreach my $t_file (@t_files) {
+		my $t_file_basename = basename($t_file);
+
+		if ( $t_file_basename =~ m/^\d{4}_${file_to_test_basename}\.t/x ) {
+			pass("File $file_to_test_basename covered by test $t_file");
+			next SEARCH_T_FILE;
+		}
+	}
+	fail("File $file_to_test_basename covered by test");
+	diag("Expected test file name: NNNN_${file_to_test_basename}.t");
+}

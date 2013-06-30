@@ -1,0 +1,20 @@
+{
+    "schema_version": "1.2",
+    "packages": [
+        {
+            "name": "PerlPod",
+            "description": "Perl POD. Author, validate and preview of Perl POD.",
+            "author": "vifo",
+            "homepage": "https://github.com/vifo/SublimePerlPod",
+            "last_modified": "2013-06-30 19:30:00",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "0.1.0",
+                        "url": "https://nodeload.github.com/vifo/SublimePerlPod/zip/v0.1.0"
+                    }
+                ]
+            }
+        }
+    ]
+}

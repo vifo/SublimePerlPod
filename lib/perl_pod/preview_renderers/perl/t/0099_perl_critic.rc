@@ -1,0 +1,13 @@
+severity	= 4
+color		= 1
+
+[CodeLayout::RequireTidyCode]
+severity    = 3
+perltidyrc  = t/0099_perl_tidy.rc
+
+# disable "always unpack @_ first" messages
+[Subroutines::RequireArgUnpacking]
+severity    = 3
+
+[ControlStructures::ProhibitPostfixControls]
+allow = if unless
